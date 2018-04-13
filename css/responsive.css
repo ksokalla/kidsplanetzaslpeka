@@ -1,0 +1,12 @@
+ @media (max-width : 992px) {
+	 #left, #right {
+		 display: none;
+	 }
+	 .teksty {
+		 margin-top: 0;
+	 }
+	 
+	 body {
+		 height: 100vh;
+	 }
+}
