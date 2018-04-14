@@ -5,9 +5,11 @@
 	<meta charset="UTF-8">
 	<title>Formularz</title>
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="css/style.css"> </head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
-<link rel="stylesheet" href="css/responsive.css"> </head>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/responsive.css"> 
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+</head>
 
 <body>
 	<!DOCTYPE html>
@@ -18,8 +20,8 @@
 		<title>kidsplanet</title>
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css"> </head>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/responsive.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/responsive.css">
 
 	<body>
 		<section id="header">
@@ -41,11 +43,21 @@
 					<div class="obrazki" id="center"><img src="img/logo_2.png" alt="logo"></div>
 					<div class="obrazki" id="right"><img src="./img/tlo_right.jpg" alt="ufo"></div>
 				</div>
-				<div class="teksty">
-					<form method="POST" action="https://formspree.io/k.sokalla@gmail.com">
-						<input type="email" name="email" placeholder="Adres e-mail">
-						<button type="submit">Zapisz się</button>
+				<div class="newsletter-container teksty">
+						<form method="POST" action="https://formspree.io/newsletter@e-kidsplanet.com">
+						<input id="input-field" class="newsletter" type="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+						<button type="submit" id="sign" class="btn btn-danger newsletter">Zapisz</button></a>
+					<input type="checkbox" name="consent" value="yes" required> <p class="consent">Wyrażam zgodę na przetwarzanie moich danych osobowych w celach marketingowych przez "Kids Planet" Radosław Maślana, ul. Wesoła 1a, 32-050 Skawina, NIP: 944-216-43-06 i na powierzenie danych w celu przetwarzania podmiotom współpracującym z „Kids Planet” w zakresie działalności marketingowej oraz na otrzymywanie na podany adres e-mail informacji handlowych. Podanie danych jest dobrowolne. Użytkownikom przysługuje prawo dostępu do swoich danych i ich poprawiania.</p>
+					
+		
 				</div>
+		</section>
+			<section id="arrow"><a href="index.html"><i class="far fa-arrow-alt-circle-left fa-4x"></i></a>
+			</section>
+		<section id="footer">
+			
+			<div id="bottom-bar1"></div>
+			<div id="bottom-bar2"></div>
 		</section>
 		<script src="js/bootstrap.js"></script>
 	</body>
